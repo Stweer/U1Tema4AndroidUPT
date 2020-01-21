@@ -84,4 +84,8 @@ public class Servicio extends Activity {
   public void IntentService(View view) {
     startActivity(new Intent(this,miIntentService.class));
   }
+
+  public void BindService(View view) {
+    startActivity(new Intent(this,MiBindService.class));
+  }
 }
